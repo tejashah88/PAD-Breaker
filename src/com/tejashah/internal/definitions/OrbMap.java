@@ -29,7 +29,7 @@ public class OrbMap {
 		combos = map.combos.copy();
 		
 		for (int r = 0; r < map.numRows; r++) {
-			for (int c = 0; c < map.numRows; c++) {
+			for (int c = 0; c < map.numCols; c++) {
 				orbs[r][c] = map.orbs[r][c];
 			}
 		}
