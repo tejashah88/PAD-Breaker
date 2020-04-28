@@ -18,7 +18,7 @@ public class OrbType {
 	public static final byte POISON 	= 7;
 	public static final byte JAMMER		= 8;
 	public static final byte EMPTY 		= 9;
-	public static final byte[] ALL_LEGAL_TYPES 		= new byte[] {FIRE, WATER, WOOD, LIGHT, DARK, RECOVER, POISON, JAMMER};
+	public static final byte[] ALL_LEGAL_TYPES 	= new byte[] {FIRE, WATER, WOOD, LIGHT, DARK, RECOVER, POISON, JAMMER};
 	public static final byte[] ALL_HEALTHY_TYPES 	= new byte[] {FIRE, WATER, WOOD, LIGHT, DARK, RECOVER};
 	public static final byte[] ALL_ATTACK_TYPES 	= new byte[] {FIRE, WATER, WOOD, LIGHT, DARK};
 	
